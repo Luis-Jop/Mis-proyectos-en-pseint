@@ -1,0 +1,84 @@
+Algoritmo sin_titulo
+	definir op Como Caracter;
+	definir n1 como real;
+	Definir n2 Como Real;
+	definir resultado Como Real;
+	
+	
+	
+	Repetir 
+		
+		Escribir "----------------------------------------------------------------------";
+		
+		Escribir "                        que desea realizar"	
+		
+		Escribir "                    ----------MENU----------";
+		Escribir "                        a. suma";
+		Escribir "                        b. resta";
+		Escribir "                        c. multiplicacion";
+		Escribir "                        d. division";
+		Escribir "                        n. salir";
+		Escribir "                        seleccione una opcion  ";
+		Leer op;
+		
+		Limpiar Pantalla
+		
+		si (op='a') o (op='A')
+			Escribir "ingrese dos numeros"
+			leer n1;
+			Leer n2;
+			resultado=n1+n2;
+			Escribir "     HA SELECCIONADO UNA SUMA: ";
+			Escribir "    el resultado de la suma es. ", resultado;
+			Escribir "    ---------------------------"
+			Escribir "     presione enter para continuar"
+			Esperar Tecla
+			Limpiar Pantalla
+		FinSi
+		
+		si (op='b') o (op='B')
+			Escribir "ingrese dos numeros"
+			leer n1;
+			Leer n2;
+			resultado=n1-n2;
+			Escribir "     HA SELECCIONADO UNA RESTA: ";
+			Escribir "    el resultado de su resta es. ", resultado;
+			Escribir "    ---------------------------"
+			Escribir "     presione enter para continuar"
+			Esperar Tecla
+			Limpiar Pantalla
+		FinSi
+		
+		si (op='c') o (op='C')
+			Escribir "ingrese dos numeros"
+			leer n1;
+			Leer n2;
+			resultado=n1*n2;
+			Escribir "     HA SELECCIONADO UNA MULTIPLICACION: ";
+			Escribir "    el resultado de la multiplicacion es. ", resultado;
+			Escribir "     ---------------------------------------"
+			Escribir "     presione enter para continuar"
+			Esperar Tecla
+			Limpiar Pantalla
+		FinSi
+		
+		si (op='d') o (op='D')
+			Escribir "ingrese dos numeros"
+			leer n1;
+			Leer n2;
+			resultado=n1/n2;
+			Escribir "     HA SELECCIONADO UNA DIVICION: ";
+			Escribir "    el resultado de la divicion es . ", resultado;
+			Escribir "   ---------------------------------"
+			Escribir "     presione enter para continuar"
+			Esperar Tecla
+			Limpiar Pantalla
+		FinSi
+		
+		
+	Hasta Que op=='n' o op=='N'
+		
+	
+
+Escribir " ----------gracias para preferinos---------"
+FinAlgoritmo
